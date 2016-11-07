@@ -1,3 +1,8 @@
+
+/*fonts
+  font-family: 'Cinzel', serif;*/
+
+
 @@media screen() {
 
 }
@@ -9,8 +14,10 @@ body {
   padding-top: 80px;
   background-image: url(../image/AsgardBG.png);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  max-width: 980px;
+  min-width: 1000px;
+
 }
 
 
@@ -32,6 +39,7 @@ body {
 }
 #navbar>ul>li{
   font-size: 20px;
+  font-family: 'Cinzel', serif;
 }
 
 .container{
@@ -73,14 +81,16 @@ body {
     left:0;
     z-index: 1039;
     color:#fff;
+    line-height: 2;
     margin: 10px 10px;
     width: 380px;
     height: 400px;
+
 }
 .contact{
   width: 300px;
   height: 100px;
-  margin: 0 0 0 17px;
+  margin: 0 0 0 2%;
 
 
 }
@@ -133,6 +143,7 @@ body {
   top:0;
   left:0;
   color: #fff;
+  line-height: 2;
   margin: 10px 10px;
   width:780px;
   text-align: center;
