@@ -8,6 +8,21 @@
     .office{
       display:none;
     }
+    #emBox{
+      height: 1421px !important;
+      width: 400px !important;
+    }
+    #emBoxContent{
+      width: 400px !important;
+      text-align: center !important;
+    }
+    .emImage{
+      margin: 0 auto !important;
+    }
+
+    #product{
+      height: 2400px !important;
+    }
 
 
   }
@@ -22,6 +37,9 @@
     width: 380px;
     height: 400px;
 
+  }
+  #product{
+    height: 2400px !important;
   }
 }
 
@@ -90,7 +108,7 @@ body {
 .info{
   position: absolute;
   top:0;
-  left:0;
+  left:10;
   width:400px;
   height:400px;
   background-color: #000;
@@ -99,7 +117,7 @@ body {
 #infoText{
     position: absolute;
     top:0;
-    left:0;
+    left:10;
     z-index: 1039;
     color:#fff;
     line-height: 2;
@@ -108,23 +126,7 @@ body {
     height: 400px;
 
 }
-.contact{
-  width: 300px;
-  height: 100px;
-  margin: 0 0 0 2%;
 
-
-}
-#contactbox{
-  position: absolute;;
-  top:0;
-  left:0;
-  width:300px;
-  height:80px;
-  background-color: #000;
-  opacity: .8;
-  z-index: -1039;
-}
 .office>p, .office>img{
   text-align: center;
 }
@@ -163,7 +165,7 @@ body {
   position: absolute;
   top:0;
   left: 0;
-  width: 800px;
+  width: 600px;
   height: 870px;
   background-color:#000;
   opacity: .8;
@@ -181,6 +183,7 @@ body {
   width: 150px;
   height: 150px;
   background-color: #fff;
+  margin-left: 10px;
 
 }
 /*product page*/
@@ -198,8 +201,7 @@ body {
  top:0;
  left:0;
  width:580px;
- max-width: 580px;
- max-height: 700px;
+
  margin: 10px 10px;
  color: #fff;
  text-align: center;
