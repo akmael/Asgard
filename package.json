@@ -1,0 +1,29 @@
+{
+  "name": "Asgard",
+  "version": "1.0.0",
+  "description": "website ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "morgan": "^1.6.1"
+  },
+  "engines": {
+        "node": "4.2.4",
+        "npm": "2.14.12"
+    },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akmael/Asgard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akmael/Asgard/issues"
+  },
+  "homepage": "https://github.com/akmael/Asgard#readme"
+}
